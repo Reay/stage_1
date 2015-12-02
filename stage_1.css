@@ -1,0 +1,52 @@
+pre {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation   Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,     monospace, serif;
+  margin-bottom: 10px;
+  overflow: auto;
+  width: auto;
+  padding: 5px;
+  background-color: #eee;
+  width: 650px!ie7;
+  padding-bottom: 20px!ie7;
+  max-height: 600px;
+}
+
+body {
+    padding: 20px 10px;
+    font-family: Arial;
+    max-width: 2000px;
+    margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+    font-size: 1.6em;
+}
+
+
+
+.lesson_title {
+text-align: center;  
+color:white;
+background-color: black;
+font-size:250%;
+font-family: Verdana;
+ 
+              }
+
+.sub_lesson_title {
+  font-size:200%;
+  text-align: center;
+  text-decoration: underline
+}
+
+.content_title{text-decoration: underline}
+
+.content{
+  text-align:  ;  
+  color: black;
+  background-color:   ;
+  font-size:12;
+        }
+  
+.code {
+  font-family:monospace;
+      }
+
+.images {
+}
