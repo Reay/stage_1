@@ -1,191 +1,292 @@
-<!--A HTML document typically begines with the html tag.-->
-
+<!DOCTYPE html>
 <html>
 
-<!-- Each lesson is divided into blocs using the div tag.-->
-<!-- Additional div tags can be used within a div tag, for styling purposes -->  
+  <head>
 
-<head>
-<title>Web Programming</title>  
-<link rel="stylesheet" type="text/css" href="stage_1.css">
-</head>
-  
-  <div>
+    <title> Web Programming </title>
+    <link rel="stylesheet" type="text/css" href="stage_1.css">
+    <meta charset="UTF-8">
 
-    <div class = "lesson_title"> Lesson 1: The Basics of the Web and HTML</div>
-    
-    <br>
-    <br>
-    
-    <div class = "sub_lesson_title"><a href="https://en.wikipedia.org/wiki/World_Wide_Web">Introduction to the Web</a></div></h2>
-   
-    <br>
-    <br>
-    
-    <div class = "images"> <img src = "http://wps.prenhall.com/wps/media/objects/620/635109/wg/Web%20Guide-3.gif" alt = "Internet Structure" align = "middle"> <div>
-  
-    <br>
-    <br>
-    
-<!-- A body tag is where we typically want to throw all the content in that includes texts, images, videos e.t.c. -->
-      
-     <body class = "content">  
+  </head>
 
-       <p>World wide web (WWW) is a collection of <em>HyperText markup Language (HTML)</em> documents. A typical HTML may contain plain texts, images, videos, music, animations e.t.c.The web was invented in the 1990s and has about 30 Billion pages up to date.</p>
+  <body>
 
-       <p>The web is a bunch of computers that communicate with each other. When a person goes to a web page like www.google.com, their computer sends a HTTP Request to a server.The server finds the appropriate HTML document and sends it back to the user's computer where a web browser interprets the page and displays it on the user's screen. This video does a good job of explaining more.</p>  
-  
-       <p>The picture avbove shows the structure of the internet. Typically, the browser in our computer communicates with the web server(s) through http requests.</p>
-     
-       <br>
-       
-     <div class = "sub_lesson_title"><a href="https://en.wikipedia.org/wiki/HTML">HyperText markup Language (HTML)</a></div>
+    <div>
+
+        <h1 class = "lesson_title">Lesson 1: The Basics of the Web and HTML </h1>
     
-      <br>
-      <br>
-      
-      <div class = "content_title">HTML Markups
-      </div>
-
-      <body class = "content">
-        
-        <p>An HTML element refers to everything within a set of opening and closing tags. Simple Examples include:</p> 
-        
-        
-        <pre>text bolding: <code><b> text </b></code></pre>
         <br>
+    
+        <h2 class = "sub_lesson_title"> <a href="https://en.wikipedia.org/wiki/World_Wide_Web">Introduction to the Web</a> </h2>
+   
+        <br>
+        <br>
+    
+        <div class = "images"> 
+
+            <img src = "http://wps.prenhall.com/wps/media/objects/620/635109/wg/Web%20Guide-3.gif" alt = "Internet Structure" > 
+        
+        </div>
+  
+        <br>
+        <br>
+    
+        <p> 
+
+            World wide web (WWW) is a collection of <em>HyperText markup Language (HTML)</em> documents. A typical HTML may contain plain texts, images, videos, music, animations e.t.c.The web was invented in the 1990s and has about 30 Billion pages up to date.
+        
+        </p>
+
+        <p>
+
+            The web is a bunch of computers that communicate with each other. When a person goes to a web page like www.google.com, their computer sends a HTTP Request to a server.The server finds the appropriate HTML document and sends it back to the user's computer where a web browser interprets the page and displays it on the user's screen. This video does a good job of explaining more.
+
+        </p>  
+  
+        <p>
+
+            The picture avbove shows the structure of the internet. Typically, the browser in our computer communicates with the web server(s) through http requests.
+        </p>
+     
+        <br>
+       
+        <h2 class = "sub_lesson_title">
+            
+            <a href="https://en.wikipedia.org/wiki/HTML">HyperText markup Language (HTML)</a>
+
+        </h2>
+    
+        <br>
+        <br>
+      
+        <h3 class = "content_title">
+            HTML Markups
+        </h3>
+
+        <p>
+
+            An HTML element refers to everything within a set of opening and closing tags. Simple Examples include:
+
+        </p> 
+        
+        <pre>
+
+            text bolding: &lt;b> text &lt;/b> 
+
+        </pre>
+
+        <br>
+
         result: <b> text </b>
        
 
-       <pre>text itallics:<code><em> text </em></code></pre>
-       <br>
-       result: <em> text </em>
+        <pre> 
+
+            text itallics: &;ltem> text &;lt/em> 
+
+        </pre>
+
+        <br>
+
+        result: <em> text </em>
        
         <br>
         <br>
         <br>
         
-       <div class = "content_title">HTML Attributes </div>
+        <h3 class = "content_title"> HTML Attributes </h3>
   
-       <p>Attribute is a property of an HTML element. For example, to set the href attribute of an anchor tag-</p>
+        <p>
+
+            Attribute is a property of an HTML element. For example, to set the href attribute of an anchor tag-
+
+        </p>
   
-       
+        <pre> 
 
-        <pre>text link (anchor) - <a href: "www.google.com" > text </a></pre>
+            text link (anchor) - &lt;a href = "www.google.com" > abc text &lt;/a>
+
+        </pre>
+        
         <br>
-        result: <a href: "http://www.google.com" > text </a><br>
+    
+        result: <a href = "http://www.google.com" > abc text </a>
+        
         <br>
         <br>
-        <div class = "content_title"> White Spaces </div>
+        <br>
+        
+        <h3 class = "content_title"> 
+            White Spaces 
+        </h3>
 
-        <pre>text break - <br></pre>
-        <pre>text paragraph - <p> text </p></pre>
+        <pre> 
+            text break - &lt;br>
+        </pre>
 
+        <pre>
 
-        <div class = "content_title"> Inline v.s. Block </div>
+            text paragraph - &lt;p> text &lt;/p> 
+
+        </pre>
+
+        <br>
+    
+
+        <h3 class = "content_title"> 
+            Inline v.s. Block 
+        </h3>
         
       
         
 
-        </p>For a block, there is a "box" around the content. For inlines, there are no "boxes" around the content.<p>
+        <p>
+
+            For a block, there is a "box" around the content. For inlines, there are no "boxes" around the content.
+
+        </p>
 
         <br>
     
-        <img src = http://girldevelopit.github.io/gdi-core-html-css/images/example-blockinline.png alt = "block v.s inline illustraion">
-</body>
+         <div class = "images">
+    
+            <img src = http://girldevelopit.github.io/gdi-core-html-css/images/example-blockinline.png alt = "block v.s inline illustraion">
+    
+        </div>
+
+        <br>
   
-        <h4><u>A simple HTML document, with the minimum of required tags:</u></h4>
+        <h4>
+            <u>A simple HTML document example with the minimum of required tags:</u>
+        </h4>
 
-        <code>
-          <html>
-          <head>
-          <title>Title of the document</title>
-          </head>
+        <pre>
+    
+            &lt;!DOCTYPE html>
+    
+            &lt;html>
+      
+                &lt;head>
+    
+                    &lt;title>Title of the document&lt;/title>
+                    &lt;link rel= "stylesheet" type="text/css" href="example.css">
+    
+                &lt;/head>
 
-          <body>
-          The content of the document......
-          </body>
+                &lt;body>
+      
+                    The content of the document......
+        
+                &lt;/body>
 
-          </html>
-        </code>  
+             &lt;/html>
+    
+        </pre>  
+  
+        <p>
 
-        <br>
-        <br>
+            The DOCTYPE declaration defines the document type to be HTML.<br>
+            The html tag describes an HTML document.<br>
+            The head  tag provides information about the document.<br>
+            The title tag provides a title for the document.<br>
+            The body tag describes the visible page content.<br>
+            The head tag describes a heading.<br>
 
-      <p>The DOCTYPE declaration defines the document type to be HTML.<br>
-      The html tag describes an HTML document.<br>
-      The head  tag provides information about the document.<br>
-      The title tag provides a title for the document.<br>
-      The body tag describes the visible page content.<br>
-      The head tag describes a heading.<br>
-      The p tag describes a paragraph.
-      </p>
+         </p>
+
+    </div>
+  
+    <br>
+  
+
+    <div>
+
+        <h1 class=lesson_title>
+            Lesson 2: Creating a Structured Document with HTML 
+        </h1>
+   
+        <p>
+            In the world of web, the web consist of HTML that look like living-rooms, bed-rooms, kitchen or a garage. 
+        </p>
+
+        <p>
+             CSS look like the color and decorations of HTML. JavaScripts function like controls of the lights and doors. 
+        </p>
+
+        <p>
+            The fundemental laws of the "web" are <i>tree-structure</i> rules and the <i>box-shape</i>.
+        </p>
 
     </div>
 
-<!--Lesson 2 we learn more on the structural characteriestics such as tree-like structures and box-structures in HTML-->
 
-<div class=lesson_title>
-Lesson 2: Creating a Structured Document with HTML 
-</div>
-      
-<br>
-<br>
-
-In the world of web, the web consist of HTML that look like living-rooms, bed-rooms, kitchen or a garage. <br>
-CSS look like the color and decorations of HTML. JavaScripts function like controls of the lights and doors. <br>
-<br>
-The fundemental laws of the "web" are <i>tree-structure</i> rules and the <i>box-shape</i>.
-
-
-<h6 class = lesson_title>Lesson 3: Adding CSS Style to HTML Structure
-</h6>   
     
-    <h7 class = sub_lesson_title><u> CSS </u></h7>
+    <div>
 
-    <p>CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.</p>  
+        <h1 class = lesson_title>Lesson 3: Adding CSS Style to HTML Structure
+        </h1>   
+    
+        <h2 class = sub_lesson_title><u> CSS </u></h2>
+
+        <p>
+            CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
+        </p>  
   
- 
-    <img src = http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png alt = "Box-Model for css">
-    
-    <br>
-    <br>
-    
-    <h1><u>Box Sizing</u></h1>
-        
-    <p>
-        
-
-        HTML elements are boxes and each box has 4 components.
-
-        Because there are so many components to each box, it can often be hard to get the size of a box just right.<br><br>
-
-        There are two techniques we can use to help deal with sizing issues.<br><br>
-
-        1. Set sizes in terms of percentages rather than pixels.<br><br>
-        
-        2. Set the box-sizing attribute to border-box for every element.<br><br>
+        <div class = "images">
       
-        Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.
+            <img  src = http://www.codeproject.com/KB/HTML/567385/boxmodel-image.png alt = "Box-Model for css">
     
+        </div>
+      
+        <br>
+        <br>
+    
+        <h1> <u>Box Sizing</u> </h1>
+        
+        <p>
+            HTML elements are boxes and each box has 4 components.
+
+            Because there are so many components to each box, it can often be hard to get the size of a box just right.<br><br>
+
+            There are two techniques we can use to help deal with sizing issues.<br><br>
+
+            1. Set sizes in terms of percentages rather than pixels.<br><br>
+        
+            2. Set the box-sizing attribute to border-box for every element.<br><br>
+      
+            Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.
+         </p>
+    
+        <h2><u>Box Positioning</u></h2>
+    
+        <p>
+            Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.<br><br>
+      
+            Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.
+        </p>
+    
+    
+        
+        <h2 class = sub_lesson_title> <u>Avoid Repetiton</u> </h2>    
+  
+        <p>
+            Avoiding repetition is important for a variety of reasons.
+        </p>
+
+    
+        <p>
+            <span><b>Avoiding Errors:</b></span> When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
+        </p>
+      
+    <p>
+        <span><b>Consistency:</b></span> For example in this webpage, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetion, it's now very easy for me to make changes to this style.
+    </p>
+
+    <p> 
+      For a complete guide, click <a href = "https://learn-2-code.appspot.com/"> here</a>
     </p>
     
-    <h2><u>Box Positioning</u></h2>
-    
-    <p>
-      Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.<br><br>
-      
-      Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.
-    </p>
-    
-    
-        
-      <h8 class = sub_lesson_title> <u>Avoid Repetiton</u> </h8>    
-    
-        <p>Avoiding repetition is important for a variety of reasons.</p>
-    
-        <p><span><b>Avoiding Errors:</b></span> When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.</p>
-      
-        <p><span><b>Consistency:</b></span> For example in this webpage, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetion, it's now very easy for me to make changes to this style.</p>
-      
+  </div>
+  
+  </body>
 </html>
