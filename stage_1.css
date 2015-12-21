@@ -6,7 +6,7 @@ pre {
   padding: 5px;
   background-color: #eee;
   width: 650px!ie7;
-  padding-bottom: 20px!ie7;
+  padding-bottom: 20px;
   max-height: 600px;
 }
 
@@ -14,11 +14,9 @@ body {
     padding: 20px 10px;
     font-family: Arial;
     max-width: 2000px;
-    margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+    margin: 0 auto; /* The 0 refers to the top and bottom margins     and the "auto" automatically */
     font-size: 1.6em;
-}
-
-
+      }
 
 .lesson_title {
 text-align: center;  
@@ -26,27 +24,22 @@ color:white;
 background-color: black;
 font-size:250%;
 font-family: Verdana;
- 
               }
 
 .sub_lesson_title {
   font-size:200%;
   text-align: center;
   text-decoration: underline
-}
+                  }
 
-.content_title{text-decoration: underline}
+.content_title{
+  text-decoration: underline
+              }
 
-.content{
-  text-align:  ;  
-  color: black;
-  background-color:   ;
-  font-size:12;
+.images{
+ text-align: center;
+ margin: auto;
+ width: 60%;
+ border: 3px solid #73AD21;
+ padding: 10px;
         }
-  
-.code {
-  font-family:monospace;
-      }
-
-.images {
-}
